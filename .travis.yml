@@ -3,7 +3,7 @@ language: 'go'
 go:
   - '1.10'
   - '1.11'
-  - 'latest'
+  - 'stable'
 
 script:
   - 'go build inventory.go'
